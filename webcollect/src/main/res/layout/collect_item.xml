@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_margin"
+        android:layout_marginLeft="@dimen/item_margin" android:layout_marginRight="@dimen/item_margin"
+        android:background="@drawable/layout_selector"
+        android:id="@+id/contentPanel">
+
+    <LinearLayout
+        android:id="@+id/iconAndTitle"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/item_title_icon_padding"
+        android:paddingTop="@dimen/item_title_icon_padding"
+        android:paddingRight="@dimen/item_title_icon_padding" >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/icon_img"
+            android:layout_width="@dimen/image_size"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="top"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="marquee"
+            android:paddingLeft="@dimen/list_title_padding"
+            android:textSize="@dimen/item_title_size"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:textSize="@dimen/item_note_size"
+            android:paddingLeft="@dimen/item_time_padding"
+            android:paddingTop="@dimen/item_time_padding"
+            android:paddingRight="@dimen/item_time_padding" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/list_item_margin"
+            android:padding="@dimen/view_item_margin"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/item_time_size"
+            android:maxLines="1"
+            android:gravity="right"/>
+    </LinearLayout>
+
+</LinearLayout>

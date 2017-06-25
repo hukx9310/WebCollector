@@ -1,0 +1,5 @@
+<resources>
+    <item type="id" name="tag_record_id"></item>
+    <item type="id" name="tag_group"></item>
+    <item type="id" name="viewholder"></item>
+</resources>

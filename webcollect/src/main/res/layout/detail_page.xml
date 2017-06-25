@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="@color/colorBottom"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <EditText
+        android:id="@+id/url_et"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="@dimen/new_title_size"
+        android:maxLines="1"
+        android:layout_margin="@dimen/detail_frag_margin"
+        android:background="@drawable/url_et_bg"
+        android:paddingLeft="@dimen/detail_frag_padding"
+        android:paddingRight="@dimen/detail_frag_padding"
+        android:inputType="textUri"
+        android:hint="@string/url_hint"/>
+
+    <EditText
+        android:id="@+id/note_et"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/note_hint"
+        android:maxLines="100"
+        android:background="@drawable/url_et_bg"
+        android:layout_marginRight="@dimen/detail_frag_margin"
+        android:layout_marginLeft="@dimen/detail_frag_margin"
+        android:layout_marginBottom="@dimen/detail_frag_margin"
+        android:padding="@dimen/detail_frag_padding"
+        android:textSize="@dimen/new_note_size"
+        android:gravity="start"
+        android:inputType="textNoSuggestions|textMultiLine"
+        android:layout_weight="1"/>
+
+</LinearLayout>

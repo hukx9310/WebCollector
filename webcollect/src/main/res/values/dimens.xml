@@ -1,0 +1,44 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="empty_hint_size">24dp</dimen>
+
+    <dimen name="image_size">18dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="view_margin_bottom">8dp</dimen>
+    <dimen name="view_item_margin">8dp</dimen>
+
+    <dimen name="item_time_padding">8dp</dimen>
+    <dimen name="item_title_icon_padding">8dp</dimen>
+    <dimen name="item_title_size">18dp</dimen>
+    <dimen name="item_margin">8dp</dimen>
+    <dimen name="item_note_size">12dp</dimen>
+    <dimen name="item_time_size">12dp</dimen>
+
+    <dimen name="listview_divi">1dp</dimen>
+    <dimen name="list_item_margin">4dp</dimen>
+    <dimen name="list_margin">60dp</dimen>
+    <dimen name="list_title_padding">4dp</dimen>
+
+    <dimen name="dialog_item_padding">18dp</dimen>
+    <dimen name="dialog_item_margin">5dp</dimen>
+    <dimen name="dialog_item_cancel_margin">10dp</dimen>
+    <dimen name="dialog_item_tx_size">18dp</dimen>
+
+    <dimen name="new_record_title_margin">4dp</dimen>
+    <dimen name="new_title_size">16dp</dimen>
+    <dimen name="new_note_size">16dp</dimen>
+
+    <dimen name="webview_button_margin">4dp</dimen>
+    <dimen name="webview_et_margin">16dp</dimen>
+    <dimen name="webview_et_padding">4dp</dimen>
+    <dimen name="webview_image_size">48dp</dimen>
+    <dimen name="webview_navi_padding">20dp</dimen>
+    <dimen name="webview_navi_margin">20dp</dimen>
+
+    <dimen name="common_progress_size">80dp</dimen>
+
+    <dimen name="detail_frag_padding">16dp</dimen>
+    <dimen name="detail_frag_margin">16dp</dimen>
+</resources>

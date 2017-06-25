@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">网站录</string>
+    <string name="action_settings">设置</string>
+    <string name="empty">暂 无 记 录 ...</string>
+    <string name="newRecord">新建记录</string>
+    <string name="title">标题：</string>
+    <string name="ok">完成</string>
+    <string name="url_hint">网址</string>
+    <string name="url">网址:</string>
+    <string name="note_hint">备注</string>
+    <string name="note">备注:</string>
+    <string name="cancel">取消</string>
+    <string name="delete_insure">删除选中条目?</string>
+    <string name="delete">删除</string>
+    <string name="if_save">保存?</string>
+    <string name="invalid_url">地址格式不对?</string>
+    <string name="exit_any_way">退出</string>
+    <string name="save">保存</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="edit">编辑</string>
+    <string name="Go">前往</string>
+    <string name="access">访问</string>
+    <string name="detail">详情</string>
+    <string name="home">主页</string>
+    <string name="new_record">新建</string>
+    <string name="back">返回</string>
+    <string name="bad_url">失败了 ...</string>
+    <string name="example_note">(示例)\n百度是全球最大的中文搜索网站\n有问题在这个网站搜索一下就好了</string>
+</resources>

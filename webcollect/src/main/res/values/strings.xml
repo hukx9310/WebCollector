@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">WebCollector</string>
+    <string name="action_settings">Settings</string>
+    <string name="newRecord">Add new record</string>
+    <string name="title">title:</string>
+    <string name="ok">OK</string>
+    <string name="url_hint">URL</string>
+    <string name="url">web address:</string>
+    <string name="note_hint">Note</string>
+    <string name="note">note:</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_insure">Delete select item?</string>
+    <string name="if_save">Save ?</string>
+    <string name="invalid_url">The url is invalid !</string>
+    <string name="exit_any_way">exit</string>
+    <string name="save">save</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="edit">Edit</string>
+    <string name="access">Access</string>
+    <string name="Go">Go</string>
+    <string name="delete">delete</string>
+    <string name="detail">DETAIL</string>
+    <string name="home">HOME</string>
+    <string name="new_record">NEW</string>
+    <string name="back">Back</string>
+    <string name="empty">No recoed ...</string>
+    <string name="bad_url">Failed ...</string>
+    <string name="example_note">(Example)\nBaidu is biggest chinese search site\nyou can get whatever you want here</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/urlEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/url_et_bg"
+            android:textSize="@dimen/item_title_size"
+            android:maxLines="1"
+            android:layout_margin="@dimen/webview_et_margin"
+            android:padding="@dimen/webview_et_padding"
+            android:inputType="textUri"/>
+
+
+
+        <WebView
+            android:id="@+id/wb"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <requestFocus />
+    </WebView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="@dimen/webview_image_size"
+                android:layout_height="@dimen/webview_image_size"
+                android:paddingRight="@dimen/webview_navi_padding"
+                android:paddingLeft="@dimen/webview_navi_padding"
+                android:src="@mipmap/ic_go_back"
+                android:background="@drawable/image_button_selector"/>
+
+
+            <ImageButton
+                android:id="@+id/forward"
+                android:layout_width="@dimen/webview_image_size"
+                android:layout_height="@dimen/webview_image_size"
+                android:paddingRight="@dimen/webview_navi_padding"
+                android:paddingLeft="@dimen/webview_navi_padding"
+                android:src="@mipmap/ic_go_forward"
+                android:background="@drawable/image_button_selector"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/loading"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyleLargeInverse"
+        android:layout_width="@dimen/common_progress_size"
+        android:layout_height="@dimen/common_progress_size"/>
+
+</FrameLayout>
