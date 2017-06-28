@@ -39,6 +39,7 @@
                 android:paddingRight="@dimen/webview_navi_padding"
                 android:paddingLeft="@dimen/webview_navi_padding"
                 android:src="@mipmap/ic_go_back"
+                android:visibility="invisible"
                 android:background="@drawable/image_button_selector"/>
 
 
@@ -49,6 +50,7 @@
                 android:paddingRight="@dimen/webview_navi_padding"
                 android:paddingLeft="@dimen/webview_navi_padding"
                 android:src="@mipmap/ic_go_forward"
+                android:visibility="invisible"
                 android:background="@drawable/image_button_selector"/>
 
         </LinearLayout>
