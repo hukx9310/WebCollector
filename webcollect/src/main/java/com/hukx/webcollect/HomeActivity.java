@@ -58,7 +58,6 @@ public class HomeActivity extends AppCompatActivity implements ViewShower{
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                fm = getSupportFragmentManager();
                 FragmentTransaction transaction = fm.beginTransaction();
                 HandleBackFragment newFragment = new NewFragment();
                 currFrament = newFragment;
@@ -68,6 +67,8 @@ public class HomeActivity extends AppCompatActivity implements ViewShower{
                 hideFloatingButton();
             }
         });
+        fm = getSupportFragmentManager();
+
         mLoadingView = (ContentLoadingProgressBar) findViewById(R.id.loading);
         mEmptyTv = (TextView) findViewById(R.id.empty_tv);
         mRecyclerView = (RecyclerView) findViewById(R.id.rv);
@@ -262,7 +263,6 @@ public class HomeActivity extends AppCompatActivity implements ViewShower{
     private void showNewFragment(WebRecord item) {
         Bundle data = new Bundle();
         data.putSerializable("record", item);
-        fm = getSupportFragmentManager();
         FragmentTransaction transaction = fm.beginTransaction();
         HandleBackFragment detailFragment = new DetailFragment();
         currFrament = detailFragment;
